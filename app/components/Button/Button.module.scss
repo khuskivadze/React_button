@@ -1,0 +1,53 @@
+@import '../../components/color.scss';
+
+
+.btContainer {
+    
+    border-radius: 8px;
+    border: none;
+    padding: 14px 29px ;
+    cursor: pointer;
+    
+}
+
+.fill{
+    background-color: $lightIfoCollor;
+    color: $primeryColor;
+}
+ 
+
+.fill:hover:enabled{
+    background-color: $primeryHover;
+    color:$primerWhite;
+}
+.fill:active:enabled{
+    background-color: $primeryColor;
+    color: $primerWhite;
+}
+.fill:disabled {
+    background-color: $backgroundPrimary;
+    color: $secendaryText;
+    cursor: not-allowed;
+
+}
+
+.outline {
+   background-color: $primerWhite;
+   color: $secendaryText;
+   border: 1px solid $outline;
+
+
+}
+
+.outline:hover:enabled{
+    background-color: $primerWhite;
+    color:$primeryText;
+    border: 1px solid $primeryColor;
+
+}
+.outline:active:enabled{
+    background-color: $primerWhite;
+    color: $primeryColor;
+    border: 1px solid $primeryColor;
+ 
+}
