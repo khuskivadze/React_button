@@ -1,6 +1,7 @@
 @import '../../components/color.scss';
+ 
 
-
+ 
 .btContainer {
     
     border-radius: 8px;
@@ -35,8 +36,6 @@
    background-color: $primerWhite;
    color: $secendaryText;
    border: 1px solid $outline;
-
-
 }
 
 .outline:hover:enabled{
@@ -51,3 +50,61 @@
     border: 1px solid $primeryColor;
  
 }
+
+  
+.button {
+    display: flex;
+    gap: 15px;
+}
+
+.icon_off {
+    font-size: 15px;
+    display: none;
+}
+.icon_on {
+    font-size: 15px;
+    display: flex;
+}
+
+.success{
+    background-color: $success;
+    color: $primerWhite;
+}
+ 
+
+.warring {
+    background-color: $warring;
+    color: $primerWhite;
+    
+}
+.error {
+    background-color: $error;
+    color: $primerWhite;
+}
+.information {
+    background-color: $information;
+    color: $primerWhite;
+}
+ 
+.lightSuccess {
+    border: 1px solid $lightSuccess;
+    color: $lightSuccess;
+}
+.lighWarring{
+    border: 1px solid $lighWarring;
+    color: $lighWarring;
+}
+
+.lightError {
+    border: 1px solid $lightError;
+    color: $lightError;
+}
+
+.lifghtInformation {
+    border: 1px solid $lifghtInformation;
+    color: $lifghtInformation;
+}
+
+
+
+
